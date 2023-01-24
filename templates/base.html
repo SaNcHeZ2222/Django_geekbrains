@@ -21,6 +21,21 @@
 
 <body>
 
+  {% include 'includes/main_menu.html' %}
+
+  <div class="container-md">
+
+    {% block content %}
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+    optio est esse? Veritatis laborum expedita
+    quibusdam numquam! Expedita amet nisi dolor similique autem, mollitia
+    ipsa et, natus vel explicabo
+    reprehenderit?
+
+    {% endblock content %}
+
+  </div>
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -70,24 +85,6 @@
       </div>
     </div>
   </nav>
-
-
-
-
-
-  <div class="container-md">
-
-    {% block content %}
-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-    optio est esse? Veritatis laborum expedita
-    quibusdam numquam! Expedita amet nisi dolor similique autem, mollitia
-    ipsa et, natus vel explicabo
-    reprehenderit?
-
-    {% endblock content %}
-
-  </div>
 
   <!-- Footer -->
 
